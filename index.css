@@ -52,25 +52,25 @@ body {
   width: 405px;
   height: 592px;
   background-size: cover;
-  background: url(/assets/B_1a_VKUcAIAlu8.jpg) center center no-repeat;
+  background: url(./assets./B_1a_VKUcAIAlu8.jpg) center center no-repeat;
   border-radius: 35px;
 }
 
 .item1.active {
   transform: rotateY(180deg) scaleX(-1);
-  background-image: url(/assets/HD-wallpaper-blue-eyes-blue-eyes-blue-eyes-ultimate-dragon-blue-eyes-white-dragon-card-dragon-kaiba-white-lightning-yu-gi-oh-yugi.jpg);
+  background-image: url(./assets./HD-wallpaper-blue-eyes-blue-eyes-blue-eyes-ultimate-dragon-blue-eyes-white-dragon-card-dragon-kaiba-white-lightning-yu-gi-oh-yugi.jpg);
   background-size: contain;
 }
 
 .item2.active {
   transform: rotateY(180deg) scaleX(-1);
-  background-image: url(/assets/Dark_Magician.jpg);
+  background-image: url(./assets./Dark_Magician.jpg);
   background-size: contain;
 }
 
 .item3.active {
   transform: rotateY(180deg) scaleX(-1);
-  background-image: url(/assets/Kuriboh-HAC1-EN-C-1E.png);
+  background-image: url(./assets./Kuriboh-HAC1-EN-C-1E.png);
   background-size: contain;
 }
 
