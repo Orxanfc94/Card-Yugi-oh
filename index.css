@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 6rem;
+  flex-direction: column;
+  background: url(https://images3.alphacoders.com/688/thumb-1920-68855.jpg);
+  background-size: contain;
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  perspective: 900px;
+}
+
+.card {
+  border-radius: 0.4rem;
+  overflow: hidden;
+  cursor: pointer;
+  width: 30%;
+  transition: .5s all ease;
+  transform: rotateX(45deg) scale(0.7);
+  box-shadow: 0px 20px 50px rgb(211, 209, 209);
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1);
+  transition: .5s all ease;
+  z-index: 400;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+  z-index: 400;
+}
+
+.item1,
+.item2,
+.item3 {
+  width: 405px;
+  height: 592px;
+  background-size: cover;
+  background: url(/assets/B_1a_VKUcAIAlu8.jpg) center center no-repeat;
+  border-radius: 35px;
+}
+
+.item1.active {
+  transform: rotateY(180deg) scaleX(-1);
+  background-image: url(/assets/HD-wallpaper-blue-eyes-blue-eyes-blue-eyes-ultimate-dragon-blue-eyes-white-dragon-card-dragon-kaiba-white-lightning-yu-gi-oh-yugi.jpg);
+  background-size: contain;
+}
+
+.item2.active {
+  transform: rotateY(180deg) scaleX(-1);
+  background-image: url(/assets/Dark_Magician.jpg);
+  background-size: contain;
+}
+
+.item3.active {
+  transform: rotateY(180deg) scaleX(-1);
+  background-image: url(/assets/Kuriboh-HAC1-EN-C-1E.png);
+  background-size: contain;
+}
+
+.item1 .item-content,
+.item2 .item-content,
+.item3 .item-content {
+  display: block;
+  width: 655px;
+  height: 800px;
+}
